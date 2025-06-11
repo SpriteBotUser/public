@@ -102,7 +102,7 @@ getgenv().ExunysDeveloperAimbot = {
 
 		TeamCheck = true,
 		AliveCheck = true,
-		WallCheck = true,
+		WallCheck = fasle,
 
 		OffsetToMoveDirection = false,
 		OffsetIncrement = 15,
