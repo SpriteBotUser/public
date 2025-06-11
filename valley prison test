@@ -1,7 +1,11 @@
 --[[
 
-	Universal Aimbot Module by Exunys © CC0 1.0 Universal (2023 - 2024)
-	https://github.com/Exunys
+			Get Skidded Kiddo!
+
+skidded by
+-Lagodzo
+
+			Ur mainframe is ASS
 
 ]]
 
@@ -93,26 +97,25 @@ getgenv().ExunysDeveloperAimbot = {
 		RainbowSpeed = 1 -- Bigger = Slower
 	},
 
-Settings = {
-    Enabled = true,
+	Settings = {
+		Enabled = true,
 
-    TeamCheck = false,
-    AliveCheck = true,
-    WallCheck = true, -- When true, lock onto any visible body part from LockParts list
+		TeamCheck = true,
+		AliveCheck = true,
+		WallCheck = true,
 
-    OffsetToMoveDirection = false,
-    OffsetIncrement = 15,
+		OffsetToMoveDirection = false,
+		OffsetIncrement = 15,
 
-    Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
-    Sensitivity2 = 3.5, -- mousemoverel Sensitivity
+		Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
+		Sensitivity2 = 3.5, -- mousemoverel Sensitivity
 
-    LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
-	LockPart = "Head", -- Body part to lock on
+		LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
+		LockPart = "Head", -- Body part to lock on
 
-
-    TriggerKey = Enum.UserInputType.MouseButton2,
-    Toggle = false
-},
+		TriggerKey = Enum.UserInputType.MouseButton2,
+		Toggle = false
+	},
 
 	FOVSettings = {
 		Enabled = true,
