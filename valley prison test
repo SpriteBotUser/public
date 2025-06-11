@@ -107,8 +107,8 @@ Settings = {
     Sensitivity2 = 3.5, -- mousemoverel Sensitivity
 
     LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
-    LockPart = "Head", -- Default body part to lock on when WallCheck is false
-    LockParts = {"Head", "HumanoidRootPart", "Right Arm", "Left Arm", "Right Leg", "Left Leg"}, -- Parts to attempt locking onto if WallCheck is true
+	LockPart = "Head", -- Body part to lock on
+
 
     TriggerKey = Enum.UserInputType.MouseButton2,
     Toggle = false
